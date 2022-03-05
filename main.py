@@ -1,3 +1,3 @@
-c=int(input("enter the temperature in celcius"))
-f=(c*(9/5))+32
-print("the temperature in fehrenheit is",f)
+rad=int(input("enter the radius of circle"))
+area=(3.14*rad*rad)
+print("area of circle is:",area)
