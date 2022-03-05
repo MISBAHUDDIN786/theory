@@ -1,0 +1,5 @@
+pamt=int(input("enter the principle amount"))
+r=int(input("enter the annual rate of interest"))
+t=int(input("enter the time in yera"))
+intr=pamt*(1+(r*t))
+print("simple interest is:",intr)
