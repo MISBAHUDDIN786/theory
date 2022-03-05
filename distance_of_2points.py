@@ -1,0 +1,6 @@
+a=int(input("enter the value of X1 coordinate"))
+b=int(input("enter the value of Y1 coordinate"))
+c=int(input("enter the value of X2 coordinate"))
+d=int(input("enter the value of Y2 coordinate"))
+distance=(((d-b)**2)+((c-a)**2))**(1/20)
+print("the distance between the points is:",distance)
